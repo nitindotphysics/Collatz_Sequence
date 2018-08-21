@@ -15,4 +15,4 @@ while n != 1:			         # Call collatz function again and again with its previo
 	n = collatz(n)
 	
 
-# Problems: If integer entered is negative, program run into infine loop. Fixed in next version.
+# Problems: If integer entered is negative, program run into infine loop. Fixed in next version

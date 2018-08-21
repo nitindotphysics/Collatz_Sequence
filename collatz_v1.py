@@ -1,6 +1,4 @@
-# Aug. 17, 2018
-
-# Program to print the Collatz sequence.
+# Program to print the Collatz sequence for an input integer.
 
 def collatz(n):			# This contains the code we need to use (call) again and again.
 	if n % 2  == 0:

@@ -1,7 +1,7 @@
 
 # Collatz Sequence
 
-Collatz Sequence problem is a famous unsolved mathematics problem named after mathematician Lothar Collatz. In this project, I tried to study the same using Python. This is the 1st project in my Beginner_Python_Projects series.
+Collatz Sequence problem is a famous unsolved mathematics problem named after mathematician Lothar Collatz. In this project, I tried to study the same using Python. This is the 1st project in my *Beginner_Python_Projects series*.
 
 ## Theory:
 

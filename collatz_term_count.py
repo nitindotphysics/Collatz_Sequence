@@ -1,9 +1,9 @@
 
 # Prints no. of steps (terms) in Collatz sequence for all postive integers less than and equal to the inputed no.
 
-import sys        # Imports sys module. We need to use exit() from it.
+import sys      	# Imports sys module. We need to use exit() from it.
 
-def collatz(n):     # This contains the code we need to use (call) again and again.
+def collatz(n): 	# This contains the code we need to use (call) again and again.
 	if n % 2  == 0:
 		return n // 2
 	else:
@@ -11,11 +11,11 @@ def collatz(n):     # This contains the code we need to use (call) again and aga
 
 print('Enter a posivie integer and I will give you steps in collatz for all integers below it.')
 
-try:						  # 'ValueError' problem fixed using try and except statements.
+try:					# 'ValueError' problem fixed using try and except statements.
 	n = int(input())		# Assign the integer to variable, n.
 except ValueError:
 	print('Only integers are acceptable.')
-	sys.exit()			  	# We don't want program to continue if the ValueError occurs. So exit.
+	sys.exit()			# We don't want program to continue if the ValueError occurs. So exit.
 
 # We need two while loops:
 # First to find no. of steps in collatz of a particular integer, see n below; 
@@ -24,11 +24,11 @@ except ValueError:
 nextNumber = n    	# Both n and nextNumber equal initially. We start counting terms in collatz from the input integer & go down to 1.
 
 i = 0			# No. of times first while ('master while') runs varies with defferent input,
-				# so we add 'i' with variable, that couts terms in collatz for each integer, to constantly change variable with each 
-				# iteration of 'master while', see 'termsCollatz_i' below. 
+			# so we add 'i' with variable, that couts terms in collatz for each integer, to constantly change variable with each 
+			# iteration of 'master while', see 'termsCollatz_i' below. 
 
-while nextNumber > 1:	# This 'master while' runs only for positive integers. 
-	i = i + 1			# Counts each iteration of 'master while'.
+while nextNumber > 1:		# This 'master while' runs only for positive integers. 
+	i = i + 1		# Counts each iteration of 'master while'.
 	n = nextNumber 		# The 'nextNumber' from last line of 'master while' fed to n as now we need to do 2nd 'while' on that no.
 	step = 0
 	

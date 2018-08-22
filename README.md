@@ -45,7 +45,7 @@ There is much more to Collatz Conjecture. I think we can do many interesting thi
 
 ## Requests:
 
-I used commenting a lot in each program to make it more readable and comprehensible to people. This may help beginners, but perhaps, a lot of commenting may do the opposite to intended. Please tell me if that is the case. 
+I used commenting a lot in each program to make it more readable and comprehensible to people. This may help beginners, but perhaps, a lot of commenting may do the opposite than intended. Please tell me if that is the case. 
 
 If you have any feedback/criticism/advice for me related to this project, feel free to comment/review. It would mean a lot to me. You can contact me on [twitter](https://twitter.com/NKakria) too.
 

@@ -3,7 +3,7 @@
 
 import sys			# Imports sys module. We need to use exit() from it.
 
-def collatz(n):			# This contains the code we need to use (call) again and again.
+def collatz(n):		# This contains the code we need to use (call) again and again.
 	if n % 2  == 0:
 		return n // 2
 	else:
@@ -15,7 +15,7 @@ try:				# 'ValueError' problem fixed using try and except statements.
 	n = int(input())	# Assign the integer to variable, n.
 except ValueError:
 	print('Only integers are acceptable.')
-	sys.exit()			# We don't want program to continue if the ValueError occurs. So exit.
+	sys.exit()		# We don't want program to continue if the ValueError occurs. So exit.
 
 nextNumber = n
 

@@ -1,8 +1,7 @@
-# Aug. 17, 2018
 
 # Prints the integer (below the input integer) with the longest Collatz sequence.
 
-import sys				# Imports sys module. We need to use exit() from it.
+import sys			# Imports sys module. We need to use exit() from it.
 
 def collatz(n):			# This contains the code we need to use (call) again and again.
 	if n % 2  == 0:
@@ -12,7 +11,7 @@ def collatz(n):			# This contains the code we need to use (call) again and again
 
 print('Enter a posivie integer and I will give you the integer below that no. whose collatz is longest.')
 
-try:					# 'ValueError' problem fixed using try and except statements.
+try:				# 'ValueError' problem fixed using try and except statements.
 	n = int(input())	# Assign the integer to variable, n.
 except ValueError:
 	print('Only integers are acceptable.')
@@ -21,7 +20,7 @@ except ValueError:
 nextNumber = n
 
 greater = 0
-if nextNumber > 1:	# The if clause below runs only for positive integers. 
+if nextNumber > 1:		# The if clause below runs only for positive integers. 
 	while nextNumber > 1:
 		n = nextNumber
 		step = 0
@@ -43,5 +42,3 @@ if nextNumber > 1:	# The if clause below runs only for positive integers.
 		
 if n < 1:
 	print('Only positive integers have a Collatz sequence.')
-	
-# I am yet to study lists and dictionaries.
